@@ -1,0 +1,134 @@
+html, body {
+  overflow: hidden;
+}
+
+body {
+  background: url('http://cdn3.ahr-global.com/images/0_Townlands%20Community%20Hospital_1920x1080.jpg') no-repeat;
+	background-size: cover;
+  font-family: 'Proxima Nova', Arial, Helvetica, sans-serif;
+  background-color: #545826;
+  
+}
+#branding-small {
+  position: absolute;
+  top: 15px; right: 36px;
+  z-index:1;
+  img {
+		 height: 55px;
+	   width: 58px;
+     
+	}
+}
+.topnav {
+  background-color: #00000085;
+  overflow: hidden;
+  width: 100%;
+  position:fixed;
+  left:0;
+  top:7px;
+   
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+      background: linear-gradient(135deg, #3b8686 0%, #0b486b 100%);
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 45px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: black;
+}
+/* Place the navbar at the bottom of the page, and make it stick */
+/* The sidebar menu */
+.sidenav {
+  height:100%;
+  width: 180px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  top:79px;
+  left: 0;
+  background: #00000080;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 40px;
+}
+
+/* The navigation menu links */
+.header {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+}
+.sidenav p {
+  position: relative;
+  margin-left: 15px;
+  margin-right: 3px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #92e4ce;
+}
+.sidenav label {
+  position: relative;
+  margin-left: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #ffffffa3;
+}
+/* Style page content */
+.main {
+  margin-left: 180px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/* Add a black background color to the top navigation */
+
+.navbar {   
+  overflow: hidden;
+  background: linear-gradient(135deg, #3b8686 0%, #0b486b 100%);
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 2px;
+  left:180px;
+  right:0;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float:left;
+  display: block;
+  text-align: left;
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 24px;
+  border:1px;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.navbar img{
+  position:static;
+  display:inline-block;
+  height: 24px;
+  width: 24px;
+  padding:2px;
+}
+
+
+
+
